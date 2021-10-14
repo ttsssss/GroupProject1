@@ -7,7 +7,7 @@ var inquirer = require("inquirer");
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'shoulderlean',
+    password: '',
     database: 'salon_data'
 });
 connection.connect(function(err) {
